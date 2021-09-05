@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <main class='main'>
+     <nav class='navBar'>
+       <h1>Nisira Yevin koswatta Portfolio</h1>
+       <div class='navigationMenu'>
+        <a href='#aboutMe'>About Me</a>
+        <a href='#skills'>Interests</a>
+        <a href='#projects'>projects</a>
+        <a href='#connectForm'>lets connect </a>
+       </div>
+     </nav>
+     <section class='heroSection'>
+      <img class='profileImage'
+      src='https://www.w3schools.com/howto/img_avatar.png'>
+      <div class="herosectionDetails">
+        <h1 class='h1'>Nisira Yevin</h1> 
+        <h3>Student of Nalanda College</h3>
+      </div>
+     </section>
+     <section class='aboutMe' id='aboutMe'>
+       <h1 class='abtme'> ABOUT ME </h1>
+       <p> Full Name :	Nisira Yevin Koswatta  //  
+       Name with Initials	:	S.M.N.Y. Koswatta </br> 
+       Address :	No.253/3, Nidahas Mawatha    //  
+       Date of Birth :	04th December 2004</br> 
+       Gender :	Male  //  
+       Nationality :	Sri Lankan  //   
+       School :	Nalanda College, Colombo </br>
+       </br>
+       </br>
+      Member of “Aeronautical Society” // 
+      Member of “Interact Club”  // </br> 
+        Member of "Student Parliament"  //  
+       Member of “Scrabble society.”  </br>
+      Finance Director of "Interact Club" 2021/2022 Commitee member </br>
+    	Assistant Troop Leader of the Nalanda College Scout Troop 21/22  </br>
+
+</p>
+     </section>
+     <section class='skillsAndProjects'>
+       <div class='skills' id='skills'>
+         <h1 class='cardHeading'>Extra-curricular Activities</h1>
+        
+         <img src='/images/camping.svg' title='camping'>
+         <img src='/images/cycling.svg' title='cycling'>
+         <img src='/images/hiking.svg' title='hiking'>
+         <img src='/images/ps.svg' title='photoshop learning'>
+         <br> </br>
+         <img src='/images/run.svg' title='Atthletics'>
+         <img src='/images/WOSM.svg' title='Scouting'> 
+         <img src='/images/html.svg' title='learning HTML'>
+         
+       </div>
+       <div class='projects' id='projects'>
+        <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            
+            <div class='projectContainer'>
+            
+              <h4>Project MCDS</h4>
+              <p> A leadership programme .</p>
+            </div>
+          </div> 
+            
+          </div>
+           
+              
+     </section>
+     <section class='connectForm' id='connectForm'>
+      <h1>Let's connect</h1>
+       <div class='formGroup'>
+         <label for='name'>Enter Full Name</label>
+         <input type='text' id='name' placeholder='Full Name'>
+       </div>
+       <div class='formGroup'>
+         <label for='email'>Email</label>
+         <input type='text' id='email' placeholder='email'>
+       </div>
+      <form>     
+       <div class='formGroup'>
+        <label for='message'>Message</label>
+        <textarea placeholder="Send some Message!" id='message' name='w3review'
+        rows='4' cols='50'></textarea>
+       </div>
+       <button type="submit"  onClick={submit()}>connect</button>
+       </form>
+     </section>
+   </main>
+  </body>
+</html>
